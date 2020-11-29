@@ -17,14 +17,18 @@ The following **required** functionality is complete:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='TipCalculatorOverview.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+- App Sucessfully computes tip and produces the correct output for large numbers.
+
+<img src='TipCalculatorOverview.gif' title='Video Walkthrough' height= '600px' width='300px' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
-
+- Xcode interface was easy to grasp, everything was very intuitive. It's just a matter of knowing what's what and what's where 
+- I had difficulty getting the numberpad to pop up when I edit the text field. 
+    -  billAmountTextField.keyboardType = UIKeyboardType.default,   does not work...
 ## License
 
     Copyright [2020] [Henry]
