@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        billAmountTextField.keyboardType = UIKeyboardType.default
         // Do any additional setup after loading the view.
     }
     
